@@ -1,0 +1,26 @@
+!!! html
+html
+  head
+    link(rel="stylesheet",href="css/styles.css")
+    meta(charset="utf-8")
+  body
+    nav
+      .nav-wrap
+        a(href="#about-us") About Us
+        a(href="#venue") Where &amp; When
+        a(href="#rsvp") RSVP
+        a(href="#registry") Registry
+    .wrap
+      section#intro
+        h1 Sample Headline
+      section#about-us
+        include partials/about-us
+      section#venue
+        include partials/venue
+      section#rsvp
+        include partials/rsvp
+      section#registry
+        include partials/registry
+
+    script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
+    script(src="js/scripts.js")
