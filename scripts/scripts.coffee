@@ -1,6 +1,5 @@
 $ ->
-  $('#about-us-images a').click (e) ->
-    e.preventDefault()
-    bigImage = ($(this).attr('href'))
-    $('#about-us-image').attr('src',bigImage)
+  hello = (name) ->
+    console.log "Hello, #{name}!"
+  hello "John"
 
