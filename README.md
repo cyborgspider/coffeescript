@@ -1,4 +1,5 @@
-Groot
-=====
+Coffeescript Practice
+=================================
 
-Lightweight site starter, cause Codekit is cool but I prefer free.
+C'mon ya'll, let's learn some Coffeescript
+
